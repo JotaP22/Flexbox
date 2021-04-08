@@ -1,0 +1,56 @@
+:root {
+    --color-green:#008646;
+    --color-grey-primary: #f4f4f4;
+    --color-grey-dark: #5a5562;
+
+    ////////// 
+    ///BP SIZES
+    $bp-large: 68.75em; //1100px
+    $bp-medium: 50em; //800px
+    $bp-small: 43.75em; //700px
+    $bp-smallest: 37.5em; //600
+    $bp-smallest-2: 21.875em; //350
+    
+}
+  
+ 
+
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+
+    @media only screen and(max-width: 68.75em) {
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: 37.5em ){
+        font-size: 35%;
+       }
+
+    @media only screen and (max-width: 21.875em){
+        font-size: 22%;
+       }
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    max-width: 120rem;
+    margin: 0 auto;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+}

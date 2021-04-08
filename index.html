@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <title>Flexbox</title>
+</head>
+<body class="container">
+    
+            <header class="header">
+                <nav class="nav">
+                    <div class="header__logo">
+                        <img src="img/logo-white.png" alt="logo" class="header__logo-image">
+                    </div>
+                    
+                    <ul class="nav__bar">
+                        <li class="nav__bar-item"><a href="" class="nav__bar-link">Food delivery</a></li>
+                        <li class="nav__bar-item"><a href="" class="nav__bar-link">How it works</a></li>
+                        <li class="nav__bar-item"><a href="" class="nav__bar-link">our cities</a></li>
+                        <li class="nav__bar-item"><a href="" class="nav__bar-link">sign up</a></li>
+                    </ul>
+                </nav>
+  
+                <div class="header__title">
+                    <h1 class="header__title-h1">goodbye junk food.</h1>  
+                    <span class="header__title-span">hello super healthy meals.</span>  
+                </div>
+                <div class="buttons">
+                    <div class="btn">
+                        <button class="btn__green btn__green-white"><a href="#" class="btn__text btn__text-white">I'm Hungry</a></button>   
+                    </div>
+                    <div class="btn">
+                        <button class="btn__green"><a href="#" class="btn__text">Show me more</a></button>  
+
+                    </div>
+                </div>
+               
+            </header>
+
+            <main class="main">
+                <div class="food">
+                <h2 class="food__header">get food fast - not fast food.</h2>
+                <span class="green-line">&nbsp;</span>
+                <span class="food__header-span">Hello, we're Omnifood. your new premium food delivery service. We know you're
+                    always busy. no time for cooking so let us take care of that. we're really good at it. we promise!
+                </span>
+                </div>
+                <div class="services">
+                    <div class="services__container">
+                        <div class="services__icon">
+                            <svg class="services__icon-green">
+                                <use href="img/sprite.svg#icon-infinity"></use>
+                            </svg>
+                        </div>
+                        <h4>Up to 365 days/year</h4>
+                            <p class="services__description-span">never cook again! we really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+                            </p>
+                    </div>
+                    <div class="services__container">
+                        <div class="services__icon">
+                            <svg class="services__icon-green">
+                                <use href="img/sprite.svg#icon-clock"></use>
+                            </svg>
+                        </div>
+                        <h4>ready in 20 minutes</h4>
+                        <p class="services__description-span">You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                        </p>
+                    </div>
+                    <div class="services__container">
+                        <div class="services__icon">
+                            <svg class="services__icon-green">
+                                <use href="img/sprite.svg#icon-leaf"></use>
+                            </svg>
+                        </div>
+                        <h4>100% organic food</h4>
+                        <p class="services__description-span">All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the enviroment and it also tastes better!
+                        </p>
+                    </div>
+                    <div class="services__container">
+                        <div class="services__icon">
+                            <svg class="services__icon-green">
+                                <use href="img/sprite.svg#icon-shopping-cart"></use>
+                            </svg>
+                        </div>
+                        <h4>order anything!</h4>
+                        <p class="services__description-span">We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+                        </p>
+                    </div>
+                </div>
+
+                <section class="section">
+                    <div class="section__header">
+                        <h2>customers favorites</h2>
+                        <span class="green-line">&nbsp;</span>
+                    </div>
+                  <div class="gallery">
+                      <figure class="gallery__items">
+                        <img src="img/1.jpg" alt="food" class="gallery__photo">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/2.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/3.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/4.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/5.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/6.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/7.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                      <figure class="gallery__items">
+                        <img src="img/8.jpg" alt="food" class="gallery__photo"">
+                      </figure>
+                  </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h2>how it works - simple as 1,2,3</h2>
+                        <span class="green-line">&nbsp;</span>
+                    </div>
+                    <div class="app__container">
+                        <div class="app__gallery">
+                            <figure class="app__gallery-items">
+                                <img src="img/app-iPhone.png" alt="food" class="app__gallery-photo">
+                              </figure>
+                        </div>
+                        <div class="app__steps">
+                            <ul class="app__list">
+                                <li class="app__item"><span class="list__style">1</span> Choose the subscription plan that best fits your needs and sign up today.</li>
+                                <li class="app__item"><span class="list__style">2</span> Order your delicious meal using our mobile app or website. Or you can even call us!</li>
+                                <li class="app__item"><span class="list__style">3</span> Enjoy your meal after less than 20 minutes. See you the next time!</li>
+                            </ul>
+                            <div class="app__buttons">
+                                <a href="#" class="app__button app__button-google">googleaa</a>
+                                <a href="#" class="app__button app__button-ios">iosasdasd</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h2>we're currently in these cities</h2>
+                        <span class="green-line">&nbsp;</span>
+                    </div>
+                    <div class="cities__gallery">
+                        <figure class="cities__gallery-items">
+                            <img src="img/lisbon-3.jpg" alt="food" class="cities__gallery-photo">
+                            <h4 class="h4__mod">lisbon</h4>  
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-user"></use>
+                                </svg>
+                                <span>1600+ happy eaters </span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <span>60+ top chefs</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+       
+                                    <use href="img/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                <a href="#" class="a__twitter">&#64;omnifood_lx</a>
+                            </div>
+                        </figure>
+
+                          <figure class="cities__gallery-items">
+                            <img src="img/san-francisco.jpg" alt="food" class="cities__gallery-photo">
+                            <h4 class="h4__mod">san francisco</h4>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-user"></use>
+                                </svg>
+                                <span>3700+ happy eaters </span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <span>160+ top chefs</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                <a href="#" class="a__twitter">&#64;omnifood_sf</a>
+                            </div>
+                        </figure>
+
+                          <figure class="cities__gallery-items">
+                            <img src="img/berlin.jpg" alt="food" class="cities__gallery-photo">
+                            <h4 class="h4__mod">berlin</h4>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-user"></use>
+                                </svg>
+                                <span>2300+ happy eaters </span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <span>110+ top chefs</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                <a href="#" class="a__twitter">&#64;omnifood_berlin</a>
+                            </div>
+                        </figure>
+
+                          <figure class="cities__gallery-items">
+                            <img src="img/london.jpg" alt="food" class="cities__gallery-photo">
+                            <h4 class="h4__mod">london</h4>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-user"></use>
+                                </svg>
+                                <span>1200+ happy eaters</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <span>50+ top chefs</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                <a href="#" class="a__twitter">&#64;omnifood_london</a>
+                            </div>
+                        </figure>
+
+                    </div>
+                </section>
+                <section class="section__pizza">
+                    <div class="section__header-pizza">
+                        <h2>our customers can't live without us</h2>
+                        <span class="green-line">&nbsp;</span>
+                    </div>
+
+                    <div class="pizza__content">
+                        <figure class="pizza__customers">
+                            <p class="pizza__content-text">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking. so Omnifood is a life-saver. now that i got used to it, I couldnt' live without my daily meals!</p>
+                            <div class="pizza__customers-box">
+                                <img src="/img/customer-1.jpg" alt="" class="pizza__customers-photo">
+                                <p>Alberto Duncan</p>
+                            </div>
+                           
+                        </figure>
+                    
+                        <figure class="pizza__customers">
+                            <p class="pizza__content-text">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking. so Omnifood is a life-saver. now that i got used to it, I couldnt' live without my daily meals!</p>
+                            <div class="pizza__customers-box">
+                                <img src="/img/customer-2.jpg" alt="" class="pizza__customers-photo">
+                                <p>Joana Silva</p>
+                            </div>
+                        </figure>
+
+                        <figure class="pizza__customers">
+                            <p class="pizza__content-text">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking. so Omnifood is a life-saver. now that i got used to it, I couldnt' live without my daily meals!</p>
+                            <div class="pizza__customers-box">
+                                <img src="/img/customer-3.jpg" alt="" class="pizza__customers-photo">
+                                <p>Milton Chapman</p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h2>start eating healthy today</h2>
+                        <span class="green-line">&nbsp;</span>
+                    </div>
+
+                    <div class="plan__container">
+                        <div class="plan__container-item">
+                            <h4 class="plan__h4">Premium</h4>
+                            <div class="price">
+                                <h3 class="price__dolar">$399</h3>
+                                <p class="price__month">/month</p>
+                            </div>
+                            <p>That's only $13.30per meal</p>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>1 meal every day</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Order 24/7</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Access to newest creations</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Free delivery</span>
+                            </div>
+                            <div class="plan__button">
+                                <div class="btn">
+                                    <button class="btn__green btn__green-white"><a href="#" class="btn__text btn__text-white">Sign up</a></button>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan__container-item">
+                            <h4 class="plan__h4">Pro</h4>
+                            <div class="price">
+                                <h3 class="price__dolar">$149</h3>
+                                <p class="price__month">/month</p>
+                            </div>
+                            <p>That's only $14.90per meal</p>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>1 meal every 10 days/month</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Order 24/7</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Access to newest creations</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Free delivery</span>
+                            </div>
+                            <div class="plan__button">
+                                <div class="btn">
+                                    <button class="btn__green btn__green-white"><a href="#" class="btn__text btn__text-white">Sign up</a></button>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan__container-item">
+                            <h4 class="plan__h4">Starter</h4>
+                            <div class="price">
+                                <h3 class="price__dolar">$19</h3>
+                                <p class="price__month">/month</p>
+                            </div>
+                            <p class="nothing">_ </p>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>1 meal</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Order</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-x"></use>
+                                </svg>
+                                <span>Access to newest creations</span>
+                            </div>
+                            <div class="gallery__text">
+                                <svg class="gallery__icon-green ">
+                                    <use href="img/sprite.svg#icon-check"></use>
+                                </svg>
+                                <span>Free delivery</span>
+                            </div>
+                            <div class="plan__button">
+                                <div class="btn">
+                                    <button class="btn__green btn__green-white"><a href="#" class="btn__text btn__text-white">Sign up</a></button>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-white">
+                    <div class="section__header">
+                        <h2>we're happy to hear from you</h2>
+                        <span class="green-line">&nbsp;</span>
+                    </div>
+                    <form action="#" class="form">
+                        <div class="form__group">
+                            <input id="name" type="text" class="form__group-input" placeholder="Name"> 
+                            <div class="form__group-label">
+                                <label for="name">Name</label>
+                            </div>
+                            
+                        </div>
+                        <div class="form__group">
+                            <input id="email" type="Email" class="form__group-input" placeholder="Email">
+                            <div class="form__group-label">
+                                <label for="email">Email</label>
+                            </div> 
+                        </div>
+                        <div class="form__group">
+                            <select name="" id="select" class="form__group-select">
+                                <option value="friends">Friends</option>
+                            </select>   
+                            <div class="form__group-label">
+                                <label for="select">How did you find us?</label>
+                            </div> 
+                        </div>
+                        <div class="form__group">
+                           <input type="checkbox" class="form__group-check" id="checkbox"> 
+                            <div class="form__group-label">
+                                <label for="checkbox">Newsletter</label>
+                            </div> 
+                        </div>
+                        <div class="form__place">
+                            <input type="placeholder" class="form__group-place" id="placeholder" placeholder="Say something!"> 
+                             <div class="form__group-label">
+                                 <label  for="placeholder">Drop us a line</label>
+                             </div> 
+                         </div>
+                         <div class="form__button">
+                            <div class="btn">
+                                <button class="btn__green btn__green-white"><a href="#" class="btn__text btn__text-white">Send it!</a></button>   
+                            </div>
+                         </div>
+                    </form>
+                </section>
+                
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    
+                    <div class="footer__link">
+                        <div class="footer__link-container">
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__text">About us</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__text">Blog</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__text">Press</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__text">iOS App</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__text">Android App</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="footer__copy">
+                        <span>Copyright  &copy;  by Omnifood. All rights reserved.</span>
+                    </div>
+                    <div class="footer__icon">
+                        <div class="footer__icon-container">
+                            <svg class="footer__icon-item">
+                                <use href="img/sprite.svg#icon-facebook"></use>
+                            </svg>
+                            <svg class="footer__icon-item">
+                                <use href="img/sprite.svg#icon-twitter"></use>
+                            </svg>
+                            <svg class="footer__icon-item">
+                                <use href="img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                       
+                    </div>
+                </div>
+            </footer>
+     
+</body>
+</html>
