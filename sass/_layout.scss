@@ -1,16 +1,17 @@
 .container {
     background-color: #fff;
-    max-width: 120rem;
+    max-width: 1200px;
 }
 
 .header{
    position: relative;
    padding: 4rem;
    min-height: 100vh;
-   font-size: 2rem;
+   font-size: 3rem;
    overflow: hidden;
    text-transform: uppercase;
    color: #fff;  
+   
 
    @media only screen and (max-width: 68.75em ){
     padding-bottom: 10rem;
@@ -18,11 +19,12 @@
 
    @media only screen and (max-width: 50em ){
     padding-bottom: 10rem;
+    min-height: 50vh;
     }
 
     @media only screen and (max-width: 21.875em ){
         padding:0;
-        min-height: 80vh;
+        min-height: 50vh;
     }
     
 
@@ -75,7 +77,7 @@
     }
 
     @media only screen and (max-width: 21.875em){
-        padding-top: 15rem;
+        padding-top: 5rem;
         padding-bottom: 2rem;
         height: 5rem;
     }
@@ -84,11 +86,11 @@
 .main {
     padding-top: 5rem;
     background-color: #fff;
-    min-height: 100vh;
+    //min-height: 100vh;
 }
 
 .section {
-    min-height: 100vh;  
+   // min-height: 100vh;  
     padding:10rem;
     background-color: var(--color-grey-primary);
 
@@ -97,10 +99,10 @@
     }
 
     @media only screen and (max-width: 37.5em ){
-        min-height: 80vh;
+       // min-height: 80vh;
     }
     @media only screen and (max-width: 21.875em){
-        min-height: 50vh;
+        //min-height: 50vh;
     }
     
     &-white { 
@@ -116,9 +118,9 @@
 .footer {
      padding: 5rem;
     background-color: #3c3b3e;
+
     @media only screen and (max-width: 50em ){
         padding:0rem;
+       // min-height: 20vh;
     }
-
-    
 }
